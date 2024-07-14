@@ -2,7 +2,7 @@ import type { Site, Metadata, Socials } from "@types";
 
 // TODO: How many projects on the homepage?
 export const SITE: Site = {
-  NAME: "wujs.io",
+  NAME: "wujs",
   EMAIL: "krzysztof@wujs.io",
   NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
@@ -10,7 +10,7 @@ export const SITE: Site = {
 };
 
 export const HOME: Metadata = {
-  TITLE: "Wujs",
+  TITLE: "Krzysztof Wujs",
   DESCRIPTION: "Krzysztof Wujs personal site",
 };
 
