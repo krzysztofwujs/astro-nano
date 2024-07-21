@@ -15,7 +15,7 @@ Customize the base site
 
 export const SITE: Site = {
   NAME: "Krzysztof Wujs",
-  EMAIL: "krzysztof.wujs@gmail.com",
+  EMAIL: "krzysztof@wujs.xyz",
   NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
   NUM_PROJECTS_ON_HOMEPAGE: 3,
