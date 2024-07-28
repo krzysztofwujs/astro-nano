@@ -2,7 +2,7 @@ import type { Site, Metadata, Socials } from "@types";
 
 // TODO: How many projects on the homepage?
 export const SITE: Site = {
-  NAME: "wujs",
+  NAME: "wujs.xyz",
   EMAIL: "krzysztof@wujs.xyz",
   NUM_POSTS_ON_HOMEPAGE: 3,
   NUM_WORKS_ON_HOMEPAGE: 2,
@@ -27,7 +27,7 @@ export const WORK: Metadata = {
 export const SOCIALS: Socials = [
   {
     NAME: "twitter-x",
-    HREF: "https://twitter.com/krzysztof_wujs",
+    HREF: "https://twitter.com/zkWujs",
   },
   {
     NAME: "github",

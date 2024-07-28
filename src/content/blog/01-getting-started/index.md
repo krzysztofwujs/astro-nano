@@ -54,7 +54,7 @@ Customize your social media
 export const SOCIALS: Socials = [
   {
     NAME: "twitter-x",
-    HREF: "https://twitter.com/markhorn_dev",
+    HREF: "https://twitter.com/zkWujs",
   },
   {
     NAME: "github",
