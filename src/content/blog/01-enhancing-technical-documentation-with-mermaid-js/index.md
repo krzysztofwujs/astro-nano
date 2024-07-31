@@ -35,15 +35,13 @@ Mermaid.js excels at creating diagrams using code, offering several significant 
 
 These advantages make Mermaid.js a powerful tool for visual communication and documentation, streamlining workflows and enhancing collaborative efforts.
 
-#### Example: Sequence Diagram
+## Example: Understanding KYC with Mermaid.js diagrams
 
-To illustrate the Know Your Customer (KYC) verification process using [Mermaid.js](https://mermaid.js.org/intro/), here's a sample sequence diagram. KYC is a critical process in the financial industry that ensures compliance and helps prevent fraud by verifying the identity of customers:
-1.	The user submits information to the bank for identity verification.
-2.	The bank forwards the data to the KYC provider, a third party service, which performs the verification.
-3.	The KYC provider checks the data against watch lists for red flags.
-4.	Watchlist results are sent back to the KYC provider.
-5.	Verification outcome (either accepted or rejected) is determined.
-6.	The bank notifies the user of the verification result.
+Know Your Customer (KYC) is a process in the financial industry that verifies customers' identities to ensure compliance and prevent fraud. This process involves collecting and verifying personal information and documents to confirm identities. Mermaid.js can illustrate the KYC process through various diagrams. Here are five examples:
+
+##### 1. Sequence Diagram:
+
+This sample sequence diagram shows how KYC helps the financial industry comply with regulations and prevent fraud.
 
 ``` mermaid
 sequenceDiagram
@@ -59,9 +57,101 @@ sequenceDiagram
     KYC_Provider->>Bank: Verification results (ACCEPTED/REJECTED)
     Bank->>User: Notify user of the result
 ```
-Below, you can see an illustrative example of the KYC sequence diagram:
 
+Description:
+
+1.	User Submission: The **user** (customer) gives the **bank** their personal and ID details. This usually includes ID, proof of address and other necessary information.
+2.	Data Forwarding: The **bank** sends the information to a **third-party provider** to check it is correct.
+3.	Verification Against Watchlists: The **KYC provider** checks the submitted information against various lists of people or entities that may be fraudulent or of interest.
+4.	Watchlist Results: The **Watchlist_DB** sends the results back to the **KYC provider**. The results show if there are any matches or concerns based on the user's information.
+5.	Verification Outcome: The **KYC provider** checks if the **user** has **passed or failed** the **verification process**.
+6.	Notification to User: The **bank** gets the result from the **KYC provider** and tells the user. If more information is needed, the **bank** will ask the user for it.
+
+This diagram shows how the KYC process works. It helps you understand how information flows in a regulated financial environment.
+**Visual example:**
 ![Diagram Example](public/images/diagram-example.png)
+
+##### 2. KYC C4 diagram example:
+
+A C4 diagram provides a high-level overview of the system architecture involved in the KYC process, highlighting the interaction between various components.
+
+``` mermaid
+%% C4 Diagram: Context Level
+graph TB
+    subgraph Customer
+        A[Customer]
+    end
+    subgraph Bank
+        B[Banking System]
+        C[Customer Management Service]
+    end
+    subgraph KYCProvider
+        D[KYC Verification Service]
+        E[Watchlist Database]
+    end
+
+    A -->|Submits Information| B
+    B -->|Sends Data| C
+    C -->|Verifies| D
+    D -->|Checks Against| E
+    D -->|Sends Results| C
+    C -->|Notifies| A
+```
+Description: This diagram represents the key components and interactions in the KYC system, including the customer, banking system, customer management service, KYC verification service, and watchlist database.
+
+**Visual example:**
+![Diagram Example](public/images/diagram-example-c4.png)
+
+##### 3. Flowchart for KYC Process:
+Mermaid code:
+
+``` mermaid
+flowchart TD
+    A[Start] --> B[Collect Customer Information]
+    B --> C[Verify Identity Documents]
+    C --> D{Is Verification Successful?}
+    D -->|Yes| E[Approve Customer]
+    D -->|No| F[Request Additional Information]
+    F --> B
+    E --> G[End]
+```
+**Visual example:**
+![Diagram Example](public/images/diagram-example-flow.png)
+
+Description: This flowchart outlines the KYC process, starting from collecting customer information to verifying identity documents and making a final decision on customer approval.
+
+##### 4. Class diagram for KYC
+
+``` mermaid
+erDiagram
+    CUSTOMER ||--o{ DOCUMENT : submits
+    CUSTOMER {
+        int id
+        string name
+    }
+    DOCUMENT {
+        int id
+        string type
+        string content
+    }
+    CUSTOMER ||--|{ BANK : associated_with
+    BANK {
+        int id
+        string name
+    }
+
+```
+**Visual example:**
+![Diagram Example](public/images/diagram-example-class.png)
+
+Description:
+- Customer: Represents a person undergoing KYC verification. Each customer has an ID, name, date of birth, and a list of documents. They can submit their information for verification.
+-	Document: Represents documents provided by the customer for verification (e.g., passport, driver’s license). Each document has an ID, type, and content. It can be validated as part of the verification process.
+-	Bank: Represents the financial institution requiring KYC verification. Each bank has an ID, name, and a list of customers. The bank processes KYC using customer information.
+-	KYCProvider: Represents a third-party service that verifies documents and checks them against watchlists. Each provider has an ID, name, and service type. They perform document verification and watchlist checking.
+-	Watchlist: Represents databases of flagged individuals or entities. The watchlist has an ID, name, and description and is used by the KYCProvider to check for any matches.
+
+This class diagram provides a structured view of the KYC system, showing how different entities interact and their roles in the KYC process.
 
 ### A Game Changer for Technical Writing
 
