@@ -1,5 +1,5 @@
 ---
-title: "Improving technical documentation diagramming with Mermaid.js"
+title: "Improving technical documentation diagramming with Mermaid"
 description: "Discover how Mermaid.js simplifies creating technical diagrams and improves documentation quality."
 date: "Aug 01 2024"
 ---
