@@ -9,7 +9,7 @@ In today's world, where an increasing number of companies are embracing open-sou
 
 
 
-## Why I Prefer Mermaid.js for Diagrams
+## Why I Prefer Mermaid.js for creating Diagrams
 
 The best thing about Mermaid is its syntax. It's simple to grasp and similar to Markdown. Plus, it has great integrations with most common software development tools. This makes it ideal for anyone, even those without a strong programming background. It's no surprise that it's used extensively in a wide range of team environments and on numerous platforms, including Slack, Discord, Obsidian, Confluence, GitHub, and more. Its accessibility and ease of use make it an invaluable tool for collaboration and communication. I've found it to be a reliable tool because it's simple and versatile. It allows you to create a variety of diagrams, such as:
 
@@ -23,7 +23,7 @@ The best thing about Mermaid is its syntax. It's simple to grasp and similar to 
 - Pie Charts
 - Requirement Diagrams
 
-## The adventages of Mermaid.js
+## Key Benefits of Using Mermaid.js
 
 Mermaid.js excels at creating diagrams using code, offering several significant benefits that enhance both the quality and efficiency of technical documentation:
 
@@ -166,7 +166,7 @@ erDiagram
 
 This class diagram provides a structured view of the KYC system, showing how different entities interact and their roles in the KYC process.
 
-## Integrations and Community Support
+## Leveraging Integrations and Community Support with Mermaid.js
 
 Mermaid.js benefits from a strong ecosystem and community support, as highlighted on its integrations and community page. This robust ecosystem includes integrations with numerous platforms and tools, making it versatile and accessible across different workflows:
 
@@ -190,3 +190,9 @@ Mermaid.js is useful even though it is easy to use. It transforms the documentat
 In my 12 years in IT, I've used many tools, including Pencil Project, PowerPoint, UX Pin, draw.io, Excalidraw, Figma, and Miro. These tools have their uses, but none can match the precision and flexibility of coding diagrams with Mermaid.js. Being able to make changes with engineers in real time saves time and makes the documentation better.
 
 If I had used Mermaid.js sooner, I would have saved a lot of time. It is very efficient and simple to use, which makes it a must for anyone who writes technical documents. If you haven't tried it, you are missing out on a great way to keep your documents up to date!
+
+
+### Useful Links
+- [Mermaid docs](https://mermaid.js.org/intro/)
+- [Mermaid Visual Editor](https://mermaid.live/edit#pako:eNpVjkFqw0AMRa8itGohvoAXhcZuswm00KxqeyFs2TMkMxrkMSHYvnvHTQutVhLv_Y9mbKVjzLG_yLU1pBFOZe0hzXNVGLVjdDQ2kGVPy4EjOPF8W2D_cBAYjYRg_fB49_ebBMV83DSGaKw_r3dUfOffPC9QVkcKUULzl5yussBLZd9Nqv9PjHJKvVY95T1lLSkUpA3u0LE6sl16fd4CNUbDjmvM09qRnmus_Zo8mqJ83HyLedSJd6gyDQZT2WVM1xQ6ilxaGpTcrxLIf4q4H2n9Ai2vXtE)
+- [Mermaid GitHub](https://github.com/mermaid-js/mermaid)
