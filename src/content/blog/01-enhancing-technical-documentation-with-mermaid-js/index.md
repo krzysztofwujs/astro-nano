@@ -56,8 +56,7 @@ sequenceDiagram
     KYC_Provider->>Bank: Verification results (ACCEPTED/REJECTED)
     Bank->>User: Notify user of the result
 ```
-Here, you can see an example image of the sequence diagram:
-
+Below, you can see an illustrative example of the KYC sequence diagram:
 ![Diagram Example](public/images/diagram-example.png)
 
 ### A Game Changer for Technical Writing
