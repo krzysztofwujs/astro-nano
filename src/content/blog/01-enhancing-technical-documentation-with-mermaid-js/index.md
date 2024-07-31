@@ -41,7 +41,7 @@ Know Your Customer (KYC) is a process in the financial industry that verifies cu
 
 ##### 1. Sequence Diagram:
 
-This sample sequence diagram shows how KYC helps the financial industry comply with regulations and prevent fraud.
+To illustrate the KYC verification process, here’s a sample sequence diagram. KYC is critical in ensuring compliance and fraud prevention in the financial industry:
 
 ``` mermaid
 sequenceDiagram
@@ -67,7 +67,7 @@ Description:
 5.	Verification Outcome: The **KYC provider** checks if the **user** has **passed or failed** the **verification process**.
 6.	Notification to User: The **bank** gets the result from the **KYC provider** and tells the user. If more information is needed, the **bank** will ask the user for it.
 
-This diagram shows how the KYC process works. It helps you understand how information flows in a regulated financial environment.
+This sequence diagram provides a clear and structured view of the KYC process, highlighting the roles and interactions of each entity involved. It is an essential tool for understanding how information flows and is processed in a regulated financial environment.
 **Visual example:**
 ![Diagram Example](public/images/diagram-example.png)
 
