@@ -58,7 +58,7 @@ sequenceDiagram
 ```
 Here, you can see an example image of the sequence diagram:
 
-![Diagram Example](/public/diagram-example.png)
+![Diagram Example](/public/images/diagram-example.png)
 
 ### A Game Changer for Technical Writing
 
