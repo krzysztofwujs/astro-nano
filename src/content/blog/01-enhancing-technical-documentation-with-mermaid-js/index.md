@@ -60,7 +60,8 @@ sequenceDiagram
     Bank->>User: Notify user of the result
 ```
 Below, you can see an illustrative example of the KYC sequence diagram:
-![Diagram Example](https://mermaid.js.org/intro/)
+
+![Diagram Example](public/images/diagram-example.png)
 
 ### A Game Changer for Technical Writing
 
