@@ -4,7 +4,7 @@ description: "Discover how Mermaid.js simplifies creating technical diagrams and
 date: "Jul 31 2024"
 ---
 
-[Mermaid.js](https://mermaid.js.org/intro/) is an invaluable tool for anyone involved in software engineering, particularly for creating technical documentation such as PRDs (Product Requirement Documents), SoWs (Statements of Work), architectural documentation and general project documentation. This JavaScript-based diagramming and charting tool uses text-based definitions to generate a wide range of diagrams, making it an adaptable option for anyone who deals with technical documentation on a daily basis.
+[Mermaid.js](https://mermaid.js.org/intro/) its great tool for anyone involved in software engineering and system design, especially for creating technical documents like PRDs, SoWs, architectural documentation and general project documentation. Mermaid uses text to create diagrams, making it a flexible choice for anyone who works with technical documents daily.
 
 ## Why I Prefer Mermaid.js for Diagrams
 
