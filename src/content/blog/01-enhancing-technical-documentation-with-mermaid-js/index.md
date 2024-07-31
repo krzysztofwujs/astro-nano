@@ -1,17 +1,17 @@
 ---
-title: "Enhancing Technical Documentation with Mermaid.js"
+title: "Improving technical documentation diagramming with Mermaid.js"
 description: "Discover how Mermaid.js simplifies creating technical diagrams and improves documentation quality."
-date: "Jul 31 2024"
+date: "Aug 01 2024"
 ---
 ![Mermaid.js Diagram Example](public/images/diagram-example-intro.png)
 
-In today's world, where an increasing number of companies are embracing open-source models, it is imperative that technical documentation is clear and accessible. It is essential for software developers, system designers and those managing complex workflows to be able to visualise ideas quickly and simply. It significantly improves team understanding and communication. This is where Mermaid.js comes into play. In this article, we explore how this powerful tool streamlines the creation of technical diagrams, making it easier to present complex information in a clear and engaging manner. We'll show you how integrating Mermaid.js into your documentation process can elevate the quality and accessibility of your technical content, ensuring that your team's knowledge is shared efficiently and comprehensibly across various platforms.
-
+Currently we can see that many companies are trying to embrace with open-source models, one of critical aspects of making this open source is clear and accessible documentation. Software developers, system designers and those managing complex workflows must be able to visualise ideas quickly and simply.
+I am a person who likes to see diagrams in documentation; they help me better understand the concepts and, in my opinion, significantly improve comprehension and communication.In this article, I will try to explain my understanding why MermaidJS can help software engineering teams present complex information in a clear and engaging manner. I will present how integrating Mermaid.js into your documentation process can elevate the quality and accessibility of your technical content, ensuring that your team's knowledge is shared efficiently and comprehensibly across various platforms.
 
 
 ## Why I Prefer Mermaid.js for creating Diagrams
 
-The best thing about Mermaid is its syntax. It's simple to grasp and similar to Markdown. Plus, it has great integrations with most common software development tools. This makes it ideal for anyone, even those without a strong programming background. It's no surprise that it's used extensively in a wide range of team environments and on numerous platforms, including Slack, Discord, Obsidian, Confluence, GitHub, and more. Its accessibility and ease of use make it an invaluable tool for collaboration and communication. I've found it to be a reliable tool because it's simple and versatile. It allows you to create a variety of diagrams, such as:
+The modern version of Mermaid is simple and can be used by both technical and non-technical people. The best thing is that there is a syntax for creating diagrams. It's easy to understand and similar to Markdown. If you are not technical person you can always use [Live Editor](https://mermaid.live/) and honestly its easier than drawing everything from scratch in most popular tools like figma or excalidraw. Another thing is that you can find many integrations and plug-ins with most common tools used in software development. This makes it ideal for anyone, even those without a strong programming background. I've found it to be a reliable tool because it's simple and versatile. It allows you to create a variety of diagrams, such as:
 
 - Flowcharts
 - Sequence Diagrams
@@ -25,27 +25,29 @@ The best thing about Mermaid is its syntax. It's simple to grasp and similar to 
 
 ## Key Benefits of Using Mermaid.js
 
-Mermaid.js excels at creating diagrams using code, offering several significant benefits that enhance both the quality and efficiency of technical documentation:
+I believe that Mermaid.js is an excellent tool for creating diagrams through code, which could enhance the quality and efficiency of technical documentation. It provides a systematic way to visualise complex information, which could make it more accessible and understandable.
 
 #### Consistency in Style and Formatting:
-Mermaid.js helps maintain a uniform style and formatting across all documents, which is crucial for a professional look. This consistency ensures that documentation is clear and cohesive, making it easier for readers to understand and navigate.
+Mermaid.js helps to maintain a consistent style and formatting across all documents, which is an important factor in creating a professional look. By ensuring uniformity, documentation can be made clearer and more cohesive, which in turn helps readers to understand and navigate it more easily.
 
 #### Efficiency in Creation and Updates:
-The tool allows for quick generation and updating of diagrams, which saves time. Its code-based approach makes it easy to modify diagrams, accommodating changes rapidly and efficiently. This is particularly beneficial for dynamic documentation that requires frequent updates.
+The tool is designed to streamline the generation and updating of diagrams, potentially saving valuable time. Its code-based approach aims to simplify the modification of diagrams, making it easier to accommodate changes rapidly and efficiently, which could be particularly useful for dynamic documentation that requires frequent updates.
 
 #### Version Control and Collaboration:
-Integration with version control systems like Git enhances collaboration and makes tracking changes straightforward. This feature is invaluable in environments where multiple contributors are involved in documentation and development, ensuring that all changes are properly documented and accessible.
+Integration with version control systems like Git has the potential to enhance collaboration and make tracking changes straightforward. In environments where multiple contributors are involved in documentation and development, this feature could be invaluable in ensuring that all changes are properly documented and accessible.
 
 #### Browser Compatibility and Versatility:
-Mermaid.js can be used in web browsers, facilitating easy embedding and viewing of diagrams on platforms such as GitHub, GitLab, and other Markdown-supported environments. This capability broadens its application, making it a versatile tool for various documentation and presentation needs.
+Mermaid.js is a highly versatile tool that seamlessly integrates with web browsers, allowing users to embed and view diagrams on a range of platforms, including GitHub, GitLab, and other Markdown-supported environments. This capability expands its utility, making it an ideal choice for various documentation and presentation needs.
 
-Mermaid.js is an indispensable tool for visual communication and documentation. It streamlines workflows and enhances collaborative efforts. It provides a robust framework for creating, managing, and sharing diagrams, empowering teams to communicate complex ideas more effectively. It ensures that everyone involved in a project has a clear and consistent understanding of the information presented.
+In light of the above, it seems fair to suggest that Mermaid.js could be a valuable addition to any visual communication toolkit. It has the potential to streamline workflow efficiency and collaborative efforts, offering a comprehensive framework for creating, managing and sharing diagrams. This could help teams to convey complex ideas with clarity and consistency, ensuring that all project stakeholders have a unified understanding of the information, which in turn could facilitate smoother and more effective communication.
 
 ## Example: Understanding KYC with Mermaid.js diagrams
 
-Know Your Customer (KYC) is a process in the financial industry that verifies customers' identities to ensure compliance and prevent fraud. This process involves collecting and verifying personal information and documents to confirm identities. Mermaid.js can illustrate the KYC process through various diagrams. Here are five examples:
+Let's explore different diagrams to visualise the Know Your Customer (KYC) process, which is crucial for financial institutions to verify customer identities, comply with regulations and prevent illegal activities such as money laundering. Using tools such as sequence diagrams, C4 diagrams, flowcharts and class diagrams, we can illustrate the steps involved in KYC. This experiment aims to simplify and illustrate the KYC process for my blog, making it easier to understand these regulatory requirements. Please note that these charts are created quickly and are for exploratory purposes only.
 
-### 1. Sequence Diagram:
+### Here are five examples:
+
+#### 1. Sequence Diagram:
 
 To illustrate the KYC verification process, here’s a sample sequence diagram. KYC is critical in ensuring compliance and fraud prevention in the financial industry:
 
@@ -63,10 +65,10 @@ sequenceDiagram
     KYC_Provider->>Bank: Verification results (ACCEPTED/REJECTED)
     Bank->>User: Notify user of the result
 ```
-#### Visual example:
+##### Visual example:
 ![Mermaid.js Diagram Example](public/images/diagram-example-1.png)
 
-#### Description:
+##### Description:
 
 1.	**User Submission:** The customer provides their personal and identification details to the bank. This typically includes identification documents, proof of address, and other necessary information.
 2.	**Data Forwarding:** he bank forwards this information to a third-party provider to verify its accuracy and authenticity.
@@ -77,7 +79,7 @@ sequenceDiagram
 
 This sequence diagram provides a clear and structured view of the KYC process, highlighting the roles and interactions of each entity involved. It is an essential tool for understanding how information flows and is processed in a regulated financial environment.
 
-### 2. KYC C4 diagram example:
+#### 2. KYC C4 diagram example:
 
 A C4 diagram provides a high-level overview of the system architecture involved in the KYC process, highlighting the interaction between various components.
 
@@ -103,16 +105,16 @@ graph TB
     D -->|Sends Results| C
     C -->|Notifies| A
 ```
-#### Visual example:
+##### Visual example:
 ![Mermaid.js Diagram Example](public/images/diagram-example-2.png)
 
 
-#### Description:
+##### Description:
 This diagram represents the key components and interactions in the KYC system, including the customer, banking system, customer management service, KYC verification service, and watchlist database.
 
 
 
-### 3. Flowchart for KYC Process:
+#### 3. Flowchart for KYC Process:
 Mermaid code:
 
 ``` mermaid
@@ -125,14 +127,14 @@ flowchart TD
     F --> B
     E --> G[End]
 ```
-#### Visual example:
+##### Visual example:
 ![Mermaid.js Diagram Example](public/images/diagram-example-3.png)
 
 
-#### Description:
+##### Description:
 This flowchart outlines the KYC process, starting from collecting customer information to verifying identity documents and making a final decision on customer approval.
 
-### 4. Class diagram for KYC
+#### 4. Class diagram for KYC
 
 ``` mermaid
 erDiagram
@@ -153,11 +155,11 @@ erDiagram
     }
 
 ```
-#### Visual example:
+##### Visual example:
 ![Mermaid.js Diagram Example](public/images/diagram-example-4.png)
 
 
-#### Description:
+##### Description:
 - Customer: Represents a person undergoing KYC verification. Each customer has an ID, name, date of birth, and a list of documents. They can submit their information for verification.
 -	Document: Represents documents provided by the customer for verification (e.g., passport, driver’s license). Each document has an ID, type, and content. It can be validated as part of the verification process.
 -	Bank: Represents the financial institution requiring KYC verification. Each bank has an ID, name, and a list of customers. The bank processes KYC using customer information.
@@ -175,7 +177,6 @@ Mermaid.js benefits from a strong ecosystem and community support, as highlighte
 - **Confluence and Jira:** Add-ons that enable embedding diagrams directly into documentation and issue tracking, improving project clarity and communication.
 - **Slack:** Supports embedding diagrams in messages, helping teams visualize processes and workflows in real-time discussions.
 - **Notion:** Integration allows for the inclusion of diagrams in Notion pages, aiding in the organization and presentation of information.
-- **Other Markdown-based tools:** Compatibility with other Markdown-supported environments, providing flexibility for users who work across different platforms.
 
 The community-driven nature of Mermaid.js ensures that it continuously evolves to meet the needs of its users. This open-source project encourages contributions from developers worldwide, fostering an environment of innovation and improvement. The community also offers extensive resources, including tutorials, forums, and user-contributed examples, making it easier for newcomers to get started and for experienced users to discover advanced features. As an open-source tool, Mermaid.js benefits from a vibrant community that continuously enhances its features, keeping it aligned with current trends and user needs. This open nature facilitates seamless integration into various platforms, including documentation websites, wikis, and project management tools, supporting collaboration and efficiency in team environments.
 
