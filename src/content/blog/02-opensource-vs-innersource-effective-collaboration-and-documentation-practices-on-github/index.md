@@ -3,6 +3,8 @@ title: "Open Source vs. Inner Source: Effective Collaboration and Documentation 
 description: "Explore best practices for managing open source and InnerSource projects on GitHub, focusing on creating structured repositories, fostering collaboration, and enhancing documentation."
 date: "Aug 05 2024"
 ---
+![intro](public/images/02/intro.jpg)
+
 
 The software development landscape has seen a significant resurgence in the adoption of open source and InnerSource models, both of which drive innovation and enhance collaboration. Open source projects, accessible to the public, leverage the collective expertise of a global community, promoting rapid development and diverse applications. InnerSource, meanwhile, brings these principles within an organization, encouraging cross-team collaboration and code reuse while maintaining control over proprietary software.
 
@@ -11,11 +13,12 @@ Both models offer unique benefits but also present challenges, necessitating eff
 ## Understanding Open Source and InnerSource
 
 ### Open Source
+![intro](public/images/02/open-source.jpg)
 
 Open source projects thrive on their openness and community-driven nature. Anyone can view, modify, and contribute to the codebase, fostering a collaborative environment that leverages the collective expertise of a global community. This model achieves transparency, innovation, and rapid development cycles, as developers from diverse backgrounds bring fresh perspectives and solutions.
 
 ### InnerSource
-
+![intro](public/images/02/innersource.jpg)
 InnerSource is the future for any company that wants to benefit from open source methodologies within a single organization. By opening up internal projects to all employees, companies can break down silos, improve code reuse, and foster a culture of collaboration. InnerSource allows organizations to benefit from the best practices of open source development while maintaining control over their proprietary software. It serves as a precursor to full open source adoption, enabling organizations to gradually build confidence and expertise in open collaboration before making their code publicly accessible.
 
 ## InnerSource as a Gateway to Open Source
@@ -27,7 +30,7 @@ This approach provides organizations the opportunity to develop the necessary in
 This phased approach ensures a thoughtful and strategic transition to open source. Organizations can protect valuable assets while still reaping the benefits of wider community engagement and innovation. The transition from internal to open source can be managed carefully, with processes being carried out gradually and securely.
 
 ## Setting Up Projects on GitHub
-
+![intro](public/images/02/github.jpg)
 ### Creating Repositories
 
 A well-structured repository is crucial. Choose a clear and descriptive name, set appropriate visibility settings, and initialize it with a `README` file.
@@ -51,7 +54,7 @@ The `README` should provide:
 - License information
 
 ## Collaboration Best Practices
-
+![intro](public/images/02/collaboration.jpg)
 ### Issue Tracking with GitHub Issues
 
 Use GitHub Issues for effective project management. Categorize, assign, and prioritize issues to ensure smooth project flow.
@@ -65,7 +68,7 @@ Establish guidelines for submitting and reviewing pull requests. Encourage thoro
 Set up CI pipelines using GitHub Actions or other CI tools to automate testing and deployment, ensuring quick feedback and early issue detection.
 
 ## Documentation Strategies
-
+![intro](public/images/02/documentation.jpg)
 ### Importance of Thorough Documentation
 
 Comprehensive documentation helps new contributors get started, provides reference material for developers, and ensures knowledge preservation.
