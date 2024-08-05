@@ -3,6 +3,7 @@ title: "Improving technical documentation diagramming with Mermaid"
 description: "Discover how Mermaid.js simplifies creating technical diagrams and improves documentation quality."
 date: "Aug 01 2024"
 ---
+## Intro
 ![Mermaid.js Diagram Example](public/images/diagram-example-intro.png)
 
 Currently we can see that many companies are trying to embrace with open-source models, one of critical aspects of making this open source is clear and accessible documentation. Software developers, system designers and those managing complex workflows must be able to visualise ideas quickly and simply.
