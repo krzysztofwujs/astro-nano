@@ -63,10 +63,10 @@ Pull requests (PRs) and code reviews are essential for maintaining code quality 
    - Link PRs to related issues to provide context and track progress.
    - Use small, focused PRs that are easier to review and integrate to reduce the risk of introducing bugs.
 
-2. **Code Review Process:**
-   - A reviewer acceptance checklist must be developed to ensure consistency and thoroughness. It should cover aspects like design, functionality, and documentation.
-   - Integrate automated checks (e.g. linting, unit tests) to catch common issues before manual review.
-   - Timely reviews are essential to avoid bottlenecks and keep the development process moving smoothly.
+   2. **Code Review Process:**
+      - Develop a reviewer acceptance checklist to ensure consistency and thoroughness, covering aspects such as design, functionality, and documentation.
+      - Integrate automated checks (e.g., linting, unit tests) to catch common issues before manual review. Additionally, implement PR scanning to issue warnings for large pull requests, ensure PR descriptions include links to relevant tasks in the issue tracker, and include screenshots for frontend project changes.
+      - Ensure timely reviews to avoid bottlenecks and maintain a smooth development process.
 
 3. **Encouraging Constructive Feedback:**
    - Give developers the feedback and criticism they need to improve their skills and code quality.
@@ -160,10 +160,6 @@ By implementing these best practices, both open source and InnerSource projects 
 - [GitHub Documentation](https://docs.github.com/en)
 - [InnerSource Commons](https://innersourcecommons.org/)
 - [Contributor Covenant](https://www.contributor-covenant.org/)
-- [GitHub Actions](https://github.com/features/actions)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [Read the Docs](https://readthedocs.org/)
-- [GitHub Pages](https://pages.github.com/)
 - [Code of Conduct Template](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
 - [GitHub Issues Guide](https://guides.github.com/features/issues/)
 - [GitHub Pull Requests Guide](https://guides.github.com/activities/hello-world/#branch)
