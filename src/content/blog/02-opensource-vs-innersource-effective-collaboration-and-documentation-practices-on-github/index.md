@@ -154,3 +154,18 @@ A well-structured repository, clear contribution guidelines and thorough documen
 Adopting InnerSource practices is a strategic move for organisations planning a transition to open source. This phased approach allows companies to build the necessary infrastructure, culture, and trust required for open collaboration in a controlled manner, gradually integrating into the broader open source community. By fostering a collaborative culture, maintaining high-quality documentation, and continuously improving the developer experience, organisations can and will unlock the full potential of their development teams. This ensures successful contributions to public projects or effective internal collaboration, ultimately driving innovation and success in software development.
 
 By implementing these best practices, both open source and InnerSource projects will achieve sustainable growth, higher quality outputs, and a more engaged and motivated developer community.
+
+### Useful Links
+
+- [GitHub Documentation](https://docs.github.com/en)
+- [InnerSource Commons](https://innersourcecommons.org/)
+- [Contributor Covenant](https://www.contributor-covenant.org/)
+- [GitHub Actions](https://github.com/features/actions)
+- [Markdown Guide](https://www.markdownguide.org/)
+- [Read the Docs](https://readthedocs.org/)
+- [GitHub Pages](https://pages.github.com/)
+- [Code of Conduct Template](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
+- [GitHub Issues Guide](https://guides.github.com/features/issues/)
+- [GitHub Pull Requests Guide](https://guides.github.com/activities/hello-world/#branch)
+- [Open Source Guides](https://opensource.guide/)
+- [InnerSource Patterns](https://patterns.innersourcecommons.org/)
