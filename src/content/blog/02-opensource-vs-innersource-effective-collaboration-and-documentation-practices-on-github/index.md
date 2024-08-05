@@ -67,7 +67,7 @@ Pull requests (PRs) and code reviews are essential for maintaining code quality 
    - Use small, focused PRs that are easier to review and integrate to reduce the risk of introducing bugs.
 
 2. **Code Review Process:**
-   - A reviewer acceptance checklist must be developed to ensure consistency and thoroughness. It should cover aspects like code style, functionality, and documentation.
+   - A reviewer acceptance checklist must be developed to ensure consistency and thoroughness. It should cover aspects like design, functionality, and documentation.
    - Integrate automated checks (e.g. linting, unit tests) to catch common issues before manual review.
    - Timely reviews are essential to avoid bottlenecks and keep the development process moving smoothly.
 
