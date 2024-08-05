@@ -45,11 +45,11 @@ Effective collaboration within the developer community is crucial for the succes
    - Use labels to indicate the type of issue (bug, feature, enhancement), priority (high, medium, low), or status (open, in progress, closed). Labels are essential for filtering and identifying issues based on their characteristics and importance.
    - Group related issues under milestones to track progress towards specific goals or releases. Milestones provide a target date for completion and show how much work remains, facilitating effective project management and timely delivery.
 
-2. **Assign Issues:**
-   -  Each issue must be assigned to a team member to ensure accountability and focus.
-   - Let team members choose their own tasks. This will help them to do work they are good at and enjoy, making the team more motivated and productive.
-   - You must decide who does what on the team and assign tasks accordingly to balance the workload and ensure everything gets done.
-   - Check on assigned issues during stand-up meetings or through project management tools on a regular basis. This will help you identify and fix problems quickly.
+   2. **Assign Issues:**
+      - Each issue must be assigned to a team member to ensure accountability and focus.
+      - Allow team members to choose their own tasks based on their strengths and interests. This will help them to work on what they are good at and enjoy, making the team more motivated and productive.
+      - As a team leader, balance the workload by assigning tasks to ensure that all necessary work is covered and everything gets done.
+      - Regularly check on assigned issues during stand-up meetings or through project management tools. This will help you quickly identify and resolve any problems.
 
 3. **Prioritize Issues:**
    - Prioritise issues based on their impact and urgency. Address high-priority issues first to ensure critical bugs or features are handled promptly.
