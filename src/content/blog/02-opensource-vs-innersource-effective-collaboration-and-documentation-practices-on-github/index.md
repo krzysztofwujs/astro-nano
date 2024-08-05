@@ -44,18 +44,18 @@ Effective collaboration within the developer community is crucial for the succes
    - Use labels to indicate the type of issue (bug, feature, enhancement), priority (high, medium, low), or status (open, in progress, closed). Labels are essential for filtering and identifying issues based on their characteristics and importance.
    - Group related issues under milestones to track progress towards specific goals or releases. Milestones provide a target date for completion and show how much work remains, facilitating effective project management and timely delivery.
 
-   2. **Assign Issues:**
-      - Each issue must be assigned to a team member to ensure accountability and focus.
-      - Allow team members to choose their own tasks based on their strengths and interests. This will help them to work on what they are good at and enjoy, making the team more motivated and productive.
-      - As a team leader, balance the workload by assigning tasks to ensure that all necessary work is covered and everything gets done.
-      - Regularly check on assigned issues during stand-up meetings or through project management tools. This will help you quickly identify and resolve any problems.
+2. **Assign Issues:**
+   - Each issue must be assigned to a team member to ensure accountability and focus.
+   - Allow team members to choose their own tasks based on their strengths and interests. This will help them to work on what they are good at and enjoy, making the team more motivated and productive.
+   - As a team leader, balance the workload by assigning tasks to ensure that all necessary work is covered and everything gets done.
+   - Regularly check on assigned issues during stand-up meetings or through project management tools. This will help you quickly identify and resolve any problems.
 
 3. **Prioritize Issues:**
-   - Prioritise issues based on their impact and urgency. Address high-priority issues first to ensure critical bugs or features are handled promptly.
+   - Prioritize issues based on their impact and urgency. Address high-priority issues first to ensure critical bugs or features are handled promptly.
    - The issue backlog must be reviewed and updated regularly to reflect changing priorities and project needs.
 
 4. **Templates and Guidelines:**
-   - Create templates for common issue types. This is the only way to ensure consistency and completeness in reporting.
+   - Create templates for common issue types. This ensures consistency and completeness in reporting.
    - Clear guidelines must be established for reporting issues, including required information and steps to reproduce bugs.
 
 Pull requests (PRs) and code reviews are essential for maintaining code quality and fostering collaboration. Here are some best practices:
@@ -65,10 +65,10 @@ Pull requests (PRs) and code reviews are essential for maintaining code quality 
    - Link PRs to related issues to provide context and track progress.
    - Use small, focused PRs that are easier to review and integrate to reduce the risk of introducing bugs.
 
-   2. **Code Review Process:**
-      - Develop a reviewer acceptance checklist to ensure consistency and thoroughness, covering aspects such as design, functionality, and documentation.
-      - Integrate automated checks (e.g., linting, unit tests) to catch common issues before manual review. Additionally, implement PR scanning to issue warnings for large pull requests, ensure PR descriptions include links to relevant tasks in the issue tracker, and include screenshots for frontend project changes.
-      - Ensure timely reviews to avoid bottlenecks and maintain a smooth development process.
+2. **Code Review Process:**
+   - Develop a reviewer acceptance checklist to ensure consistency and thoroughness, covering aspects such as design, functionality, and documentation.
+   - Integrate automated checks (e.g., linting, unit tests) to catch common issues before manual review. Additionally, implement PR scanning to issue warnings for large pull requests, ensure PR descriptions include links to relevant tasks in the issue tracker, and include screenshots for frontend project changes.
+   - Ensure timely reviews to avoid bottlenecks and maintain a smooth development process.
 
 3. **Encouraging Constructive Feedback:**
    - Give developers the feedback and criticism they need to improve their skills and code quality.
