@@ -137,13 +137,11 @@ Continuous Integration (CI) automates the testing and deployment process, ensuri
 
 ## Enhancing Developer Experience (DevX)
 
-Foster a welcoming and inclusive community by adopting a code of conduct, such as the Contributor Covenant. Providing comprehensive contribution guidelines and detailed onboarding documentation ensures new developers can quickly and effectively integrate into the team.
+Create a welcoming and inclusive community by adopting a code of conduct, such as the Contributor Covenant. Providing comprehensive contribution guidelines and detailed onboarding documentation is the best way to ensure new developers can quickly and effectively integrate into the team.
 
-Use setup scripts to automate and simplify the development environment setup process. This reduces complexity and lowers entry barriers for new contributors. Encouraging pair programming and thorough code reviews fosters collaboration and knowledge sharing among developers, enhancing code quality and creating a culture of continuous learning and mutual support.
+Setup scripts should be used to automate and simplify the development environment setup process. This reduces complexity and lowers entry barriers for new contributors. Pair programming and thorough code reviews are essential for fostering collaboration and knowledge sharing among developers. They enhance code quality and create a culture of continuous learning and mutual support.
 
-Utilize GitHub’s features like contributors lists, badges, and project boards to acknowledge and reward contributions. Recognizing developers' efforts boosts morale and motivates ongoing participation and excellence within the community. Investing in high-quality documentation and clear communication channels ensures that documentation is up-to-date, accessible, and covers all aspects of the project.
-
-Effective communication tools and practices help resolve issues promptly and keep the team aligned.
+Use GitHub's features like contributors lists, badges, and project boards to acknowledge and reward contributions. It's simple: recognising developers' efforts boosts morale and motivates ongoing participation and excellence within the community. Investing in high-quality documentation and clear communication channels ensures that documentation is up-to-date, accessible, and covers all aspects of the project.
 
 ## Conclusion
 
