@@ -19,41 +19,53 @@ body {
 body {
     @apply font-sans antialiased;
     @apply flex flex-col;
-    @apply bg-neutral-100 dark:bg-neutral-950;
-    @apply text-black/50 dark:text-white/75;
+    @apply bg-gray-900 dark:bg-gray-950;
+    @apply text-gray-300 dark:text-gray-400;
 }
 
+/* Header styling */
 header {
-    @apply fixed top-0 left-0 right-0 z-50 py-5;
-    @apply bg-neutral-100 dark:bg-neutral-950;
+    @apply fixed top-0 left-0 right-0 z-50 py-6; /* Increased padding */
+    @apply bg-gray-900 dark:bg-gray-950; /* Same color as body */
 }
 
+/* Main content styling */
 main {
-    @apply flex-1 py-32;
+    @apply flex-1 pt-24 py-12; /* Added padding-top to offset the header height */
 }
 
+/* Footer styling */
 footer {
-    @apply py-5 text-sm;
+    @apply py-6 text-sm; /* Increased padding */
+    @apply bg-gray-900 dark:bg-gray-950; /* Same color as body */
 }
 
+/* Welcome message styling */
+.welcome-message {
+    @apply mt-4; /* Added margin-top to around 1cm */
+}
+
+/* Article styling */
 article {
     @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
     @apply prose-headings:font-semibold prose-p:font-serif;
-    @apply prose-headings:text-black prose-headings:dark:text-white;
+    @apply prose-headings:text-purple-400 dark:prose-headings:text-purple-300;
 }
 
 @layer utilities {
+    /* Link styling within articles */
     article a {
         @apply font-sans text-current underline underline-offset-2;
-        @apply decoration-black/15 dark:decoration-white/30;
+        @apply decoration-purple-400 dark:decoration-purple-500;
         @apply transition-colors duration-300 ease-in-out;
     }
     article a:hover {
-        @apply text-black dark:text-white;
-        @apply decoration-black/25 dark:decoration-white/50;
+        @apply text-purple-500 dark:text-purple-300;
+        @apply decoration-purple-600 dark:decoration-purple-400;
     }
 }
 
+/* Animation classes */
 .animate {
     @apply opacity-0 translate-y-3;
     @apply transition-all duration-700 ease-out;
@@ -63,6 +75,7 @@ article {
     @apply opacity-100 translate-y-0;
 }
 
+/* Back-to-top button styling */
 html #back-to-top {
     @apply opacity-0 pointer-events-none;
 }
