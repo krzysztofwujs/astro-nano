@@ -7,7 +7,7 @@ date: "Aug 09 2024"
 
 Ethereum has rapidly become the leading blockchain platform and the backbone of decentralised finance (DeFi) and decentralised applications (dApps). However, this explosive growth has also revealed Ethereum's limitations, particularly its lack of scalability, which is causing high transaction fees, slow processing times and network congestion. These issues not only hinder Ethereum's functionality but also threaten its long-term vision of becoming the "world computer", capable of supporting a vast global network of users and applications.
 
-To address these challenges and unlock Ethereum's full potential, Layer 2 scaling solutions, especially rollups, are the answer. Rollups are the solution. They offload transaction processing from Ethereum's main blockchain (Layer 1) to a secondary layer, increasing transaction throughput while preserving the network's security and decentralisation. In this article, I will explain the two leading rollup technologies: optimistic rollups and zero-knowledge (ZK) rollups. Each offers distinct advantages in tackling Ethereum's scalability issues. If you're a developer seeking to scale your dApp or an enthusiast curious about Ethereum's future, this exploration will provide valuable insights into the evolving blockchain landscape.
+To address these challenges and unlock Ethereum’s full potential, Layer 2 scaling solutions, particularly rollups, are essential. Rollups work by offloading transaction processing from Ethereum’s main blockchain (Layer 1) to a secondary layer, significantly increasing transaction throughput while maintaining the network’s security and decentralization. In this article, I will explore the two leading rollup technologies: optimistic rollups and zero-knowledge (ZK) rollups. Each offers unique advantages in addressing Ethereum’s scalability issues. Whether you’re a developer looking to scale your dApp or an enthusiast interested in Ethereum’s future, this exploration will provide valuable insights into the evolving blockchain landscape.​⬤
 
 ## Why Scalability Is Crucial for Ethereum
 
@@ -17,9 +17,21 @@ As Ethereum's ecosystem expands, driven by the rise of DeFi, NFTs, and other dAp
 
 ## What Are Rollups?
 
-Rollups are the best Layer 2 scaling solutions on the market, designed to increase Ethereum's transaction throughput while minimising costs. They achieve this by aggregating multiple transactions into a single batch, which is then processed off-chain. Only the necessary data from these batches is posted back to the Ethereum mainnet (Layer 1), which significantly reduces the computational load and data storage requirements on the Ethereum network. This approach delivers a dramatic increase in transaction throughput, lower fees and a more efficient use of Ethereum's resources.
+Rollups are currently the best Layer 2 scaling solutions available, designed to increase Ethereum's transaction throughput while minimizing costs. They work by aggregating multiple transactions into a single batch, which is then processed off-chain. Only the essential data from these batches is posted back to the Ethereum mainnet (L1), significantly reducing the computational load and data storage requirements on the network. This approach results in:
 
-There are two main types of rollups that have become the dominant forces in the Ethereum ecosystem: There are two main types of rollups: optimistic rollups and zero-knowledge (ZK) rollups. Both types of rollups enhance Ethereum's scalability. They do so in different ways, with each approach offering unique advantages and trade-offs.
+- A dramatic increase in transaction throughput
+- Lower fees
+- More efficient use of Ethereum's resources
+
+There are two main types of rollups that have become dominant in the Ethereum ecosystem:
+
+1. **Optimistic Rollups:**
+   Optimistic rollups assume transactions are valid by default and only verify them if challenged, which allows for faster processing but may involve a delay for final settlement.
+
+2. **Zero-Knowledge (ZK) Rollups:**
+   ZK rollups use cryptographic proofs to validate transactions, ensuring they are correct before they are posted to Ethereum. This method offers greater security and faster finality but can be more complex to implement.
+
+Both of these rollup technologies enhance Ethereum's scalability, each offering unique advantages and trade-offs through their distinct approaches.
 
 ## Optimistic Rollups: A Flexible, Practical Solution
 
