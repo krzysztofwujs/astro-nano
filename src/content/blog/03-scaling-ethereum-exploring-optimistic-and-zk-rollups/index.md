@@ -35,7 +35,7 @@ Both of these rollup technologies enhance Ethereum's scalability, each offering 
 
 ## Optimistic Rollups: A Flexible, Practical Solution
 
-Optimistic Rollups are the pragmatic approach to scaling Ethereum. They operate under the assumption that all transactions in a batch are valid unless proven otherwise, hence the term "optimistic". This assumption allows transactions to be processed quickly and efficiently off-chain, without the need for immediate on-chain validation. To ensure transaction integrity, Optimistic Rollups include a challenge period during which suspicious transactions can be disputed and, if necessary, reversed.
+Optimistic Rollups offer a pragmatic solution for scaling Ethereum by assuming all transactions in a batch are valid unless challenged, hence the term “optimistic.” This approach allows for quick and efficient off-chain processing without immediate on-chain validation. A challenge period is included to maintain transaction integrity, during which suspicious transactions can be disputed and potentially reversed.
 
 ### How Optimistic Rollups Work
 
@@ -54,7 +54,7 @@ To safeguard the system’s integrity, Optimistic Rollups introduce a challenge 
 
 - **Scalability:** By processing transactions off-chain, Optimistic Rollups significantly increase Ethereum's transaction throughput, allowing the network to process more transactions per second.
 - **Cost Efficiency:** By aggregating transactions into batches, the amount of data posted on-chain is reduced, resulting in lower gas fees and more affordable transactions.
-- **EVM compatibility:** Optimistic Rollups are fully compatible with the Ethereum Virtual Machine, making it easy for developers to deploy and manage smart contracts without having to learn new tools or languages.
+- **EVM compatibility:** Optimistic Rollups maintain full compatibility with the Ethereum Virtual Machine, allowing developers to deploy and manage smart contracts seamlessly. This eliminates the need to learn new tools or languages, streamlining the development process.
 
 ### Challenges and Considerations
 
@@ -134,13 +134,13 @@ The decision between Optimistic and ZK-Rollups ultimately depends on the specifi
 
 ## Conclusion
 
-As Ethereum continues to evolve, there is no doubt that both Optimistic and ZK-Rollups will play a critical role in overcoming the network's scalability challenges. These Layer 2 solutions are essential for enabling Ethereum to handle a growing user base and increasingly complex decentralised applications without sacrificing security or decentralisation.
+As Ethereum evolves, both Optimistic and ZK-Rollups are set to play a pivotal role in solving its scalability challenges, ensuring the network can support a growing user base and complex applications without compromising on security or decentralization.
 
-Optimistic Rollups provide the best practical and flexible solution for integrating with the existing Ethereum infrastructure. Their widespread adoption, driven by projects like Arbitrum and Optimism, proves they are an effective way to scale the network while keeping costs low. However, developers must consider the implications of the delayed finality introduced by the challenge period, as well as the potential risks of centralisation.
+Optimistic Rollups, embraced by projects like Arbitrum and Optimism, offer a practical and flexible scaling solution by integrating smoothly with existing Ethereum infrastructure. These rollups enable cost-effective scaling, but developers must be mindful of the delayed transaction finality due to the challenge period and the risks of potential centralization.
 
-The ZK-Rollups are the more advanced solution, offering immediate transaction finality and prioritising security through the use of cryptographic proofs. They are the ideal choice for high-stakes applications where these factors are crucial. Implementations such as Linea and Scroll prove that ZK-Rollups are the best way to deliver secure, fast, and private transactions. However, developers new to this technology must carefully consider the complexity and resource demands associated with ZK-Rollups.
+On the other hand, ZK-Rollups, with their advanced cryptographic proofs, prioritize immediate transaction finality and enhanced security, making them the preferred choice for high-stakes applications. Implementations such as Linea and Scroll illustrate their effectiveness in providing secure, fast, and private transactions. However, the complexity and resource demands of ZK-Rollups require careful consideration by developers new to this technology.
 
-When choosing between Optimistic and ZK-Rollups, developers and businesses must assess their specific requirements. These include the need for fast transaction finality, high security, privacy, and the complexity of development. Both rollup types are essential for Ethereum's future. They will influence how the network scales, reduces costs and maintains its security and decentralisation. It is vital that these technologies evolve and are adopted so that Ethereum can cement its role as the foundational infrastructure for the decentralised digital economy.
+When deciding between Optimistic and ZK-Rollups, developers and businesses should evaluate their specific needs, such as the importance of fast transaction finality, security, privacy, and the complexity of implementation. Both rollup types are indispensable for Ethereum’s future, significantly impacting how the network scales, reduces costs, and preserves its security and decentralization. As these technologies evolve and gain wider adoption, they will be key to establishing Ethereum as the foundational infrastructure for the decentralized digital economy.
 
 ### Useful Links
 
